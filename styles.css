@@ -4,50 +4,96 @@
   box-sizing: border-box;
 }
 
-.page {
-  width: auto;
-  margin: 0 auto;
-  overflow: hidden;
-  background-color: #DDDDDD;
-}
-
-.container {
-  overflow: hidden;
-  background: #fff;
+.menu-container {
+  background-color: #1c3a6f;
+  color: #fff;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
-  text-align: center;
-  height: 100px;
-  background-color: #B2D6FF;
-}
-
-.sidebar {
-  float: left;
-  width: 200px;
-  height: 500px;
-  background-color: #fff;
-}
-
-.overview {
-  padding: 20px;
-  float: left;
   width: auto;
-  height: auto;
-  background-color: #AEDB9F
+  display: flex;
+  justify-content: center;
 }
 
-.deliverables {
-  padding: 20px;
-  border: 2px solid #fff;
-  float: left;
-  width: 50%;
-  height: 300px;
-  background-color: #7E9495;
+.menu-item {
+  width: auto;
+  height: 100px;
+  justify-content: center;
 }
 
-.footer {
-  clear: both;
+.header-container {
+  background-color: #aaddec;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
   height: 200px;
-  background-color:#B2D6FF;
+  display: flex;
+  justify-content: space-between;
 }
+
+.header-item {
+  border: 2px solid #1c3a6f;
+  padding: 10px;
+}
+
+.content-container {
+  background-color: #B991CE;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content-item {
+  border: 5px solid #fff;
+  box-sizing: border-box;
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+}
+
+.supplement-container {
+  background-color: #aaddec;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.supplement {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.supplement-item {
+  border: 5px solid #fff;
+  box-sizing: border-box;
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica", "Arial", "sans-serif";
+}
+p {
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-size: 20px;
+  color: #515658;
+  }
