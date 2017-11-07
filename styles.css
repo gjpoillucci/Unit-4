@@ -7,56 +7,64 @@
 .menu-container {
   background-color: #1c3a6f;
   color: #B0E0E6;
+  width: auto;
   padding: 25px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .menu-item {
-  width: 1200px;
-  justify-content: flex-end;
+  width: auto;
+  justify-content: flex-start;
 }
 
 .header-container {
   background-color: #B0E0E6;
+  width: auto;
   padding: 25px;
-  display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .header {
-  width: 1200px;
-  height: 150px;
   display: flex;
   border: 4px solid #1c3a6f;
+  padding: 10px;
 }
 
 .image-container {
   background-color: #B0E0E6;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   padding: 25px;
+  width: auto;
+}
+
+.image {
+  display: flex;
+  border: 4px solid #1c3a6f;
+  padding: 10px;
 }
 
 .content-container {
   background-color: #B0E0E6;
-  padding: 50px;
+  width: auto;
+  padding: 25px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .content {
-  box-sizing: border-box;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .content-item {
   background-color: #c2d0d2;
-  margin: 10px;
-  width: 28%;
-  height: 300px;
-  justify-content: flex-end;
+  width: 33.3%;
+  border: 4px solid #1c3a6f;
+  padding: 10px;
+  margin: 8px;
+  justify-content: flex-start;
 }
 
 h1, h2, h3, h4 {
@@ -87,7 +95,7 @@ p {
   }
 
   .footer-item {
-    width: 1200px;
+    width: auto;
     display: flex;
     justify-content: center;
     padding: 10px;
